@@ -1,0 +1,130 @@
+.resources_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1550px;
+    min-height: 70vh;
+    align-items: center;
+    flex: 1;
+    background-color: #7C98FF;
+    margin: 0px auto;
+    text-align: initial;
+}
+
+.resource_image {
+    width: 100%;
+    max-width: 440px;
+    border-radius: 20px;
+}
+
+.resource_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    text-align: initial;
+}
+
+.resource_part h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    max-width: 350px;
+    text-align: left;
+}
+
+.resources {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1350px;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.heading_resources {
+    font-size: 75px;
+    color: white;
+        font-family: cursive;
+
+}
+
+.heading_resource {
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.training_button {
+    padding: 10px 0px;
+    width: 100%;
+    max-width: 250px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 30px;
+    color: black;
+    border: none;
+}
+
+
+.resources_content {
+    display: flex;
+    width: 100%;
+    max-width: 1350px;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1350px) {
+    .resources_wrapper {
+        width: 95%;
+        max-width: 1350px;
+    }
+   
+    .resource_part {
+        max-width: 320px;
+    }
+    .resource_part h3 {
+        font-size: 25px;
+        max-width: 350px;
+    }
+    
+    .heading_resources {
+        font-size: 58px;
+    }
+    
+    .heading_resource {
+        font-size: 30px;
+        color: #12CBC4;
+        font-weight: normal;
+    }
+    
+    
+    .resources_content {
+        width: 95%;
+        max-width: 1350px;
+    }
+
+}
+
+
+@media screen and (max-width: 1100px) {
+    .resource_part {
+        max-width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .resource_part {
+        max-width: 400px;
+    }
+    .training_button{
+        font-size: 20px;
+        max-width: 150px;
+    }
+}
