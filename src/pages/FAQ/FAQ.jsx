@@ -1,6 +1,6 @@
 import FAQPart from "./components/FAQpart";
 import arrow from '../../assets/arrow.svg';
-import '../FAQ/components/style.faq.css'
+import '../FAQ/components/style.FAQ.css'
 
 
 let faqs = [
