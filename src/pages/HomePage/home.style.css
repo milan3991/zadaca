@@ -13,6 +13,7 @@
     margin: 0px auto;
     justify-content: center;
 }
+
 .home_content {
     display: flex;
     width: 100%;
@@ -24,7 +25,7 @@
     flex-wrap: wrap;
 }
 
-.left_side {
+.home_left_side {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -54,11 +55,18 @@
     margin-top: 20px;
 }
 
-.right_side {
+.home_right_side {
     display: flex;
     flex-direction: column;
     width: 100%;
     max-width: 650px;
+    background-image: url(../../assets/bcg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
 }
 
 .homeimg {
@@ -79,33 +87,33 @@
 
 @media screen and (max-width: 1350px) {
     /*section one*/
-    
+
     .home_wrapper {
         width: 95%;
         max-width: 1350px;
         margin-top: 0px;
         gap: 20px;
     }
-    
-    .left_side {
+
+    .home_left_side {
         max-width: 550px;
     }
-        
+
     .logoimg {
         width: 100%;
         max-width: 100px;
     }
-    
+
     .homeheading {
         font-size: 55px;
         margin-top: 70px;
     }
-    
+
     .homeimg {
         width: 100%;
         max-width: 550px;
     }
-    
+
     .home_button {
         padding: 20px 100px;
         max-width: 400px;
@@ -118,26 +126,26 @@
         width: 95%;
         max-width: 900px;
     }
-    
-    .left_side {
+
+    .home_left_side {
         max-width: 400px;
     }
-        
+
     .logoimg {
         width: 100%;
         max-width: 100px;
     }
-    
+
     .homeheading {
         font-size: 40px;
         margin-top: 30px;
     }
-    
+
     .homeimg {
         width: 100%;
         max-width: 450px;
     }
-    
+
     .home_button {
         padding: 10px 80px;
         max-width: 300px;
@@ -149,6 +157,7 @@
         color: white;
         gap: 0px;
     }
+
     .logoheading {
         font-size: 25px;
     }
@@ -160,26 +169,25 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    
-    .left_side {
+
+    .home_left_side {
         max-width: 600px;
         justify-content: center;
         align-items: center;
-    }        
-    
+    }
+
     .homeheading {
         font-size: 30px;
         margin-top: 30px;
         max-width: 400px;
         text-align: center;
     }
-    
- 
+
+
     .logo {
         max-width: 400px;
         align-items: center;
         gap: 10px;
     }
- .homeimg {
-display: none;    }
+
 }

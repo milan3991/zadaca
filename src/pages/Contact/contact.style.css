@@ -27,9 +27,14 @@
 
 .left_side {
     display: flex;
-    flex-direction: column;
-    width: 100%;
     max-width: 650px;
+    background-image: url(../../assets/bcg2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
 }
 
 .logo {
@@ -88,9 +93,9 @@
 }
 
 @media screen and (max-width: 900px) {
-    .contactimg {
+    /* .contactimg {
         display: none;
-    }
+    } */
     .contactheading {
         font-size: 60px;
     }
