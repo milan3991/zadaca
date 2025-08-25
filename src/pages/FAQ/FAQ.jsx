@@ -1,4 +1,4 @@
-import FAQPart from "./components/FAQPart";
+import FAQPart from "./components/FAQpart";
 import arrow from '../../assets/arrow.svg';
 import '../FAQ/components/style.faq.css'
 
