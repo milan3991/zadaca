@@ -1,7 +1,7 @@
 .training_wrapper {
     display: flex;
     width: 100%;
-    max-width: 1550px;
+    max-width: 1350px;
     margin-top: 5px;
     align-items: center;
     gap: 100px;
@@ -10,12 +10,14 @@
     background-color: #C5FFBC;
     margin: 0px auto;
     justify-content: center;
+        padding: 20px 0;
+
 }
 
 .trainings {
     display: flex;
     width: 100%;
-    max-width: 1550px;
+    max-width: 1350px;
     margin-top: 5px;
     align-items: center;
     gap: 100px;

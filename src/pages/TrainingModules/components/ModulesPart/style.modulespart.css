@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 1550px;
+    max-width: 1350px;
     min-height: 100vh;
     align-items: center;
     flex: 1;
     background-color: #7C98FF;
     margin: 0px auto;
+        padding: 20px 0;
+
 }
 
 .module_image {
@@ -38,7 +40,6 @@
     width: 100%;
     max-width: 1350px;
     flex-direction: column;
-    align-items: center;
     gap: 100px;
 }
 

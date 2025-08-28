@@ -35,7 +35,9 @@ const TrainingResources = () => {
         <div className='resources_wrapper'>
             <div className='resources_content'>
                 <div className='resources'>
-                    <h1 className='heading_resources'>Our resources</h1>
+                    <div>
+                    <h1 className='heading_resources'>Training resources</h1>
+                    </div>
                     <div className='resources_content'>
                         {resources.map((resource) => (
                             <ResourcePart

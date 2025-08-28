@@ -2,13 +2,15 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 1550px;
+    max-width: 1350px;
     min-height: 70vh;
     align-items: center;
     flex: 1;
     background-color: #7C98FF;
     margin: 0px auto;
     text-align: initial;
+        padding: 20px 0;
+
 }
 
 .resource_image {
@@ -41,7 +43,7 @@
     width: 100%;
     max-width: 1350px;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     gap: 100px;
 }
 
@@ -74,7 +76,6 @@
     width: 100%;
     max-width: 1350px;
     gap: 20px;
-    text-align: center;
     flex-wrap: wrap;
     justify-content: center;
 }
