@@ -10,7 +10,7 @@
     background-color: #C5FFBC;
     margin: 0px auto;
     justify-content: center;
-        padding: 20px 0;
+    padding: 20px 0;
 
 }
 
@@ -22,7 +22,7 @@
     align-items: center;
     gap: 100px;
     justify-content: center;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 
 }
 
@@ -34,7 +34,7 @@
 
 .heading_training {
     font-size: 85px;
-        font-family: cursive;
+    font-family: cursive;
 
 }
 
@@ -54,7 +54,7 @@
 .first_part {
     display: flex;
     gap: 50px;
-    
+
 }
 
 .training_image {
@@ -68,10 +68,26 @@
 
 @media screen and (max-width: 900px) {
     .training_wrapper {
-    width: 95%;
+        width: 95%;
     }
+
+    .trainings {
+        width: 95%;
+    }
+
     .heading_training {
         font-size: 60px;
     }
-}
 
+    .training_image {
+        max-width: 15px;
+    }
+
+    .training_heading {
+        font-size: 21px;
+    }
+
+    .last_part h3 {
+        font-size: 18px;
+    }
+}
